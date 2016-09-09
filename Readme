@@ -6,18 +6,26 @@ How to use :
        -Add reference to your project
        -Get download Link : 
        
+       _______________________________________________________________________________________________________________________
        
        Console.WriteLine(Youtube_MP3_Downloader.Main.get_Download_link("https://www.youtube.com/watch?v=bM7SZ5SBzyY"));
        
+       _______________________________________________________________________________________________________________________
        Output : 
        
-       http://www.youtubeinmp3.com/download/get/?i=QvbDwr8GXm5P%2BRXCoExs1I7wG2EpC7guNC1821gVRFJXY2XSXTQlSOdLlrm%2BRcdqEdko1usbOJ5Dru%2Bs4TkiXw%3D%3D&progressType=button&color=ba1717
+       _______________________________________________________________________________________________________________________
        
+       http://www.youtubeinmp3.com/download/get/?i=QvbDwr8GXm5P%2BRXCoExs1I7wG2EpC7guNC1821gVRFJXY2XSXTQlSOdLlrm%2BRcdqEdko1usbOJ5Dru%2Bs4TkiXw%3D%3D&progressType=button&color=ba1717
+       _______________________________________________________________________________________________________________________
+   
        -How to download video as MP3 : 
+       
+       _______________________________________________________________________________________________________________________
        
        new WebClient().DownloadFile(Youtube_MP3_Downloader.Main.get_Download_link("Youtube Video URL") , "File Name.mp3");
        
        Console.WriteLine("Downloaded!");
        
+       _______________________________________________________________________________________________________________________
        
       Thanks for visiting!
