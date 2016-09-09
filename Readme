@@ -1,0 +1,23 @@
+This is a simple DLL made in C# to download Youtube videos as MP3.
+It uses the WebPage http://www.youtubeinmp3.com for downloading files.
+Is easy, and fast.
+
+How to use :
+       -Add reference to your project
+       -Get download Link : 
+       
+       
+       Console.WriteLine(Youtube_MP3_Downloader.Main.get_Download_link("https://www.youtube.com/watch?v=bM7SZ5SBzyY"));
+       
+       Output : 
+       
+       http://www.youtubeinmp3.com/download/get/?i=QvbDwr8GXm5P%2BRXCoExs1I7wG2EpC7guNC1821gVRFJXY2XSXTQlSOdLlrm%2BRcdqEdko1usbOJ5Dru%2Bs4TkiXw%3D%3D&progressType=button&color=ba1717
+       
+       -How to download video as MP3 : 
+       
+       new WebClient().DownloadFile(Youtube_MP3_Downloader.Main.get_Download_link("Youtube Video URL") , "File Name.mp3");
+       
+       Console.WriteLine("Downloaded!");
+       
+       
+      Thanks for visiting!
